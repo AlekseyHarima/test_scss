@@ -1,0 +1,15 @@
+$primary-color: #15afc0;
+$danger-color: red;
+$main-font: Helvetica, sans-serif;
+
+h1 {
+  color: $primary-color;
+  background-color: $danger-color;
+  font-family: $main-font;
+}
+
+p {
+  font-family: $main-font;
+  border: 2px solid $danger-color;
+  background-color: $primary-color;
+}
